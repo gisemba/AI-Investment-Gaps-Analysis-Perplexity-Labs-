@@ -1,0 +1,229 @@
+{
+  "investment_gaps": {
+    "primary_gaps": {
+      "Power & Cooling Infrastructure": {
+        "gap_size_billions": 200,
+        "urgency_level": "Critical",
+        "time_to_impact": "6-12 months",
+        "affected_projects_percent": 90,
+        "key_metrics": {
+          "current_capacity": "50MW average per facility",
+          "ai_requirement": "150MW+ for AI-ready facilities",
+          "gap_multiplier": "3x capacity shortfall"
+        },
+        "investment_targets": [
+          {
+            "company": "Schneider Electric",
+            "focus": "Power management systems",
+            "investment_size": "50-100M",
+            "partnership_type": "Strategic"
+          },
+          {
+            "company": "Vertiv",
+            "focus": "Liquid cooling solutions",
+            "investment_size": "25-50M",
+            "partnership_type": "Supplier"
+          },
+          {
+            "company": "CoreWeave",
+            "focus": "AI-ready capacity deployment",
+            "investment_size": "100-200M",
+            "partnership_type": "Joint Venture"
+          }
+        ],
+        "expected_roi": "15-25x",
+        "payback_period": "24-36 months"
+      },
+      "AI Talent Integration": {
+        "gap_size_billions": 30,
+        "urgency_level": "Severe",
+        "time_to_impact": "3-6 months",
+        "affected_projects_percent": 87,
+        "key_metrics": {
+          "demand": "4.2M unfilled AI positions globally",
+          "supply": "320K qualified developers",
+          "gap_ratio": "13.1x demand vs supply"
+        },
+        "investment_targets": [
+          {
+            "company": "Scale AI",
+            "focus": "AI workforce platform",
+            "investment_size": "50-75M",
+            "partnership_type": "Strategic"
+          },
+          {
+            "company": "Dex",
+            "focus": "AI talent matching",
+            "investment_size": "10-20M",
+            "partnership_type": "Acquisition"
+          },
+          {
+            "company": "GitHub Copilot",
+            "focus": "AI-assisted development",
+            "investment_size": "25-50M",
+            "partnership_type": "Platform"
+          }
+        ],
+        "expected_roi": "25-40x",
+        "payback_period": "12-18 months"
+      },
+      "Data Quality & Governance": {
+        "gap_size_billions": 50,
+        "urgency_level": "High",
+        "time_to_impact": "9-18 months",
+        "affected_projects_percent": 80,
+        "key_metrics": {
+          "data_prep_time": "80% of AI project time",
+          "quality_threshold": "<90% data quality scores",
+          "governance_coverage": "<60% of AI models"
+        },
+        "investment_targets": [
+          {
+            "company": "Databricks",
+            "focus": "Data lakehouse platform",
+            "investment_size": "100-150M",
+            "partnership_type": "Strategic"
+          },
+          {
+            "company": "Monte Carlo",
+            "focus": "Data observability",
+            "investment_size": "25-40M",
+            "partnership_type": "Acquisition"
+          },
+          {
+            "company": "Collibra",
+            "focus": "Data governance",
+            "investment_size": "50-75M",
+            "partnership_type": "Strategic"
+          }
+        ],
+        "expected_roi": "20-35x",
+        "payback_period": "18-24 months"
+      },
+      "Edge AI Processing": {
+        "gap_size_billions": 40,
+        "urgency_level": "Medium-High",
+        "time_to_impact": "12-24 months",
+        "affected_projects_percent": 60,
+        "key_metrics": {
+          "latency_requirement": "<50ms for real-time AI",
+          "current_capability": "200ms+ typical latency",
+          "power_efficiency": "10x improvement needed"
+        },
+        "investment_targets": [
+          {
+            "company": "Groq",
+            "focus": "LPU inference engines",
+            "investment_size": "50-100M",
+            "partnership_type": "Investment"
+          },
+          {
+            "company": "Qualcomm",
+            "focus": "Edge AI chips",
+            "investment_size": "75-125M",
+            "partnership_type": "Strategic"
+          },
+          {
+            "company": "Horizon Robotics",
+            "focus": "Automotive edge AI",
+            "investment_size": "25-50M",
+            "partnership_type": "Strategic"
+          }
+        ],
+        "expected_roi": "12-20x",
+        "payback_period": "30-42 months"
+      },
+      "MLOps & Model Deployment": {
+        "gap_size_billions": 20,
+        "urgency_level": "High",
+        "time_to_impact": "6-12 months",
+        "affected_projects_percent": 75,
+        "key_metrics": {
+          "deployment_time": ">60 days model to production",
+          "automation_level": "<30% automated processes",
+          "success_rate": "<70% successful deployments"
+        },
+        "investment_targets": [
+          {
+            "company": "AWS SageMaker",
+            "focus": "Enterprise MLOps",
+            "investment_size": "25-50M",
+            "partnership_type": "Platform"
+          },
+          {
+            "company": "Weights & Biases",
+            "focus": "ML experiment tracking",
+            "investment_size": "15-30M",
+            "partnership_type": "Strategic"
+          },
+          {
+            "company": "Hugging Face",
+            "focus": "Model deployment platform",
+            "investment_size": "20-40M",
+            "partnership_type": "Strategic"
+          }
+        ],
+        "expected_roi": "30-50x",
+        "payback_period": "15-21 months"
+      }
+    }
+  },
+  "gap_actions": {
+    "immediate_priorities": {
+      "Q4_2025": [
+        {
+          "gap": "Power & Cooling Infrastructure",
+          "action": "Secure 100MW AI-ready capacity",
+          "target_companies": [
+            "CoreWeave",
+            "Schneider Electric"
+          ],
+          "investment_range": "150-250M",
+          "success_metric": "10MW+ deployed within 12 months",
+          "risk_mitigation": "Diversify across 3+ data center operators"
+        },
+        {
+          "gap": "AI Talent Integration",
+          "action": "Deploy AI workforce platform",
+          "target_companies": [
+            "Scale AI",
+            "Dex"
+          ],
+          "investment_range": "60-95M",
+          "success_metric": "50% reduction in hire time to <90 days",
+          "risk_mitigation": "Multi-platform strategy + internal training"
+        }
+      ],
+      "Q1_2026": [
+        {
+          "gap": "Data Quality & Governance",
+          "action": "Implement end-to-end data platform",
+          "target_companies": [
+            "Databricks",
+            "Monte Carlo"
+          ],
+          "investment_range": "125-190M",
+          "success_metric": "95% data quality score, <30 day deployment",
+          "risk_mitigation": "Hybrid cloud strategy across providers"
+        },
+        {
+          "gap": "MLOps & Model Deployment",
+          "action": "Automate model lifecycle management",
+          "target_companies": [
+            "AWS SageMaker",
+            "Weights & Biases"
+          ],
+          "investment_range": "40-80M",
+          "success_metric": "10x faster model-to-production",
+          "risk_mitigation": "Platform-agnostic tooling approach"
+        }
+      ]
+    }
+  },
+  "summary_metrics": {
+    "total_gap_billions": 340,
+    "target_companies": 15,
+    "average_roi": "34x",
+    "priority_gaps": 5
+  }
+}

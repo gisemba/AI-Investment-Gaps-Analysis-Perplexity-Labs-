@@ -1,0 +1,479 @@
+{
+  "enhanced_companies": {
+    "AI-Native Physical Infrastructure": {
+      "leaders": [
+        {
+          "name": "Microsoft",
+          "investment": "80B",
+          "focus": "AI-enabled data centers",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Strategic",
+          "market_cap": "3T",
+          "risk_level": "Low"
+        },
+        {
+          "name": "Meta",
+          "investment": "65B",
+          "focus": "AI training facilities & MTIA chips",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Strategic",
+          "market_cap": "1.5T",
+          "risk_level": "Low"
+        },
+        {
+          "name": "CoreWeave",
+          "investment": "12B",
+          "focus": "GPU cloud specialist",
+          "valuation": "19B",
+          "stage": "Growth",
+          "partnership": "Immediate",
+          "market_cap": "Private",
+          "risk_level": "Medium"
+        },
+        {
+          "name": "Amazon AWS",
+          "investment": "100B+",
+          "focus": "Trainium/Inferentia chips & infrastructure",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Platform",
+          "market_cap": "2.1T",
+          "risk_level": "Low"
+        },
+        {
+          "name": "Crusoe Energy",
+          "investment": "3.4B",
+          "focus": "Renewable AI campuses",
+          "valuation": "Private",
+          "stage": "Growth",
+          "partnership": "Partnership",
+          "market_cap": "Private",
+          "risk_level": "Medium"
+        },
+        {
+          "name": "Digital Realty",
+          "investment": "N/A",
+          "focus": "Colocation adaptation",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Partner",
+          "market_cap": "35B",
+          "risk_level": "Low"
+        },
+        {
+          "name": "American Tower",
+          "investment": "N/A",
+          "focus": "Edge aggregation data centers",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Partner",
+          "market_cap": "85B",
+          "risk_level": "Low"
+        }
+      ],
+      "market_size": 200,
+      "key_bottlenecks": [
+        "Power constraints (90% of facilities)",
+        "Grid interconnection 5+ year waits",
+        "Cooling at 150kW+ per rack",
+        "Water availability for liquid cooling"
+      ],
+      "critical_risks": [
+        "Power grid constraints",
+        "Regulatory delays",
+        "Environmental water restrictions",
+        "Geopolitical supply chain disruptions"
+      ],
+      "red_flags": [
+        "5+ year power connection waits in key markets",
+        "Water usage restrictions in drought areas",
+        "Utility partnership complexity",
+        "Renewable energy intermittency"
+      ]
+    },
+    "Advanced Data Infrastructure & MLOps": {
+      "leaders": [
+        {
+          "name": "Databricks",
+          "investment": "43B",
+          "focus": "Data lakehouse platform",
+          "valuation": "43B",
+          "stage": "Pre-IPO",
+          "partnership": "Strategic",
+          "market_cap": "Private",
+          "risk_level": "Low"
+        },
+        {
+          "name": "Scale AI",
+          "investment": "1B",
+          "focus": "Data labeling & AI workforce platform",
+          "valuation": "14B",
+          "stage": "Growth",
+          "partnership": "Immediate",
+          "market_cap": "Private",
+          "risk_level": "Medium"
+        },
+        {
+          "name": "Snowflake",
+          "investment": "N/A",
+          "focus": "Cloud data platform",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Platform",
+          "market_cap": "45B",
+          "risk_level": "Low"
+        },
+        {
+          "name": "Palantir",
+          "investment": "N/A",
+          "focus": "Enterprise AI platform",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Enterprise",
+          "market_cap": "170B",
+          "risk_level": "Medium"
+        },
+        {
+          "name": "AWS SageMaker",
+          "investment": "N/A",
+          "focus": "Enterprise MLOps platform",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Platform",
+          "market_cap": "2.1T",
+          "risk_level": "Low"
+        }
+      ],
+      "market_size": 80,
+      "key_bottlenecks": [
+        "Data curation (80% of AI project time)",
+        "Model operationalization complexity",
+        "Quality governance at scale",
+        "Integration across cloud platforms"
+      ],
+      "critical_risks": [
+        "Data quality degradation",
+        "Model drift and performance decay",
+        "Regulatory compliance complexity",
+        "Vendor lock-in risks"
+      ],
+      "red_flags": [
+        "Extended model deployment times >60 days",
+        "Data quality scores <90%",
+        "Manual MLOps processes",
+        "Limited model monitoring capabilities"
+      ]
+    },
+    "Specialized Edge AI Hardware": {
+      "leaders": [
+        {
+          "name": "NVIDIA",
+          "investment": "N/A",
+          "focus": "H100/H200 & Jetson edge platforms",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Critical",
+          "market_cap": "3.5T",
+          "risk_level": "Low"
+        },
+        {
+          "name": "AMD",
+          "investment": "N/A",
+          "focus": "MI300/MI325X series",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Alternative",
+          "market_cap": "220B",
+          "risk_level": "Medium"
+        },
+        {
+          "name": "Intel",
+          "investment": "N/A",
+          "focus": "Gaudi 3 & Movidius edge processors",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Strategic",
+          "market_cap": "95B",
+          "risk_level": "High"
+        },
+        {
+          "name": "Qualcomm",
+          "investment": "N/A",
+          "focus": "Cloud AI 100 & mobile edge chips",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Mobile",
+          "market_cap": "180B",
+          "risk_level": "Medium"
+        },
+        {
+          "name": "Cerebras",
+          "investment": "N/A",
+          "focus": "WSE-3 wafer-scale processing",
+          "valuation": "Private",
+          "stage": "Growth",
+          "partnership": "Emerging",
+          "market_cap": "Private",
+          "risk_level": "High"
+        },
+        {
+          "name": "Groq",
+          "investment": "1.9B",
+          "focus": "LPU inference engines",
+          "valuation": "Private",
+          "stage": "Growth",
+          "partnership": "Target",
+          "market_cap": "Private",
+          "risk_level": "High"
+        }
+      ],
+      "market_size": 120,
+      "key_bottlenecks": [
+        "NVIDIA supply allocation constraints",
+        "Power efficiency at edge",
+        "Real-time processing <50ms latency",
+        "Cost optimization vs performance"
+      ],
+      "critical_risks": [
+        "NVIDIA supply dependency",
+        "Geopolitical chip restrictions",
+        "Technology obsolescence cycles",
+        "Power consumption at scale"
+      ],
+      "red_flags": [
+        "NVIDIA allocation delays >6 months",
+        "Single vendor dependency >80%",
+        "Power consumption >200W per device",
+        "Inference costs >$0.01 per query"
+      ]
+    },
+    "AI Talent Platforms": {
+      "leaders": [
+        {
+          "name": "Scale AI",
+          "investment": "1B",
+          "focus": "AI workforce & data labeling platform",
+          "valuation": "14B",
+          "stage": "Growth",
+          "partnership": "Platform",
+          "market_cap": "Private",
+          "risk_level": "Low"
+        },
+        {
+          "name": "Dex",
+          "investment": "3.1M",
+          "focus": "AI talent matching (a16z backed)",
+          "valuation": "Early",
+          "stage": "Seed",
+          "partnership": "Acquisition",
+          "market_cap": "Private",
+          "risk_level": "Very High"
+        },
+        {
+          "name": "retrain.ai",
+          "investment": "20M",
+          "focus": "Talent reskilling platform",
+          "valuation": "Private",
+          "stage": "Series A",
+          "partnership": "Investment",
+          "market_cap": "Private",
+          "risk_level": "High"
+        },
+        {
+          "name": "GitHub Copilot",
+          "investment": "N/A",
+          "focus": "AI-assisted development",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Platform",
+          "market_cap": "3T",
+          "risk_level": "Low"
+        },
+        {
+          "name": "OpenAI",
+          "investment": "13B+",
+          "focus": "AI development tools & training",
+          "valuation": "157B",
+          "stage": "Growth",
+          "partnership": "Strategic",
+          "market_cap": "Private",
+          "risk_level": "Medium"
+        }
+      ],
+      "market_size": 50,
+      "key_bottlenecks": [
+        "13.1x talent supply-demand gap",
+        "142 days average hire time",
+        "87% companies struggling to hire",
+        "AI skill verification complexity"
+      ],
+      "critical_risks": [
+        "Talent cost inflation >30% YoY",
+        "Skills obsolescence acceleration",
+        "Geographic talent concentration",
+        "Poaching and retention costs"
+      ],
+      "red_flags": [
+        "AI hire times >180 days",
+        "Salary inflation >40% YoY",
+        "Talent turnover >50% annually",
+        "Skills verification failures"
+      ]
+    },
+    "Data Quality & Governance": {
+      "leaders": [
+        {
+          "name": "Collibra",
+          "investment": "250M",
+          "focus": "Data intelligence platform",
+          "valuation": "5.25B",
+          "stage": "Growth",
+          "partnership": "Strategic",
+          "market_cap": "Private",
+          "risk_level": "Low"
+        },
+        {
+          "name": "Monte Carlo",
+          "investment": "135M",
+          "focus": "Data observability",
+          "valuation": "1.6B",
+          "stage": "Growth",
+          "partnership": "Target",
+          "market_cap": "Private",
+          "risk_level": "Medium"
+        },
+        {
+          "name": "Informatica",
+          "investment": "N/A",
+          "focus": "Data management platform",
+          "valuation": "Public",
+          "stage": "Mature",
+          "partnership": "Platform",
+          "market_cap": "14B",
+          "risk_level": "Low"
+        },
+        {
+          "name": "Velotix",
+          "investment": "N/A",
+          "focus": "AI-powered governance",
+          "valuation": "Private",
+          "stage": "Growth",
+          "partnership": "Investment",
+          "market_cap": "Private",
+          "risk_level": "High"
+        },
+        {
+          "name": "Ataccama",
+          "investment": "N/A",
+          "focus": "Data quality platform",
+          "valuation": "Private",
+          "stage": "Mature",
+          "partnership": "Partnership",
+          "market_cap": "Private",
+          "risk_level": "Medium"
+        }
+      ],
+      "market_size": 25,
+      "key_bottlenecks": [
+        "AI governance framework complexity",
+        "Regulatory compliance across jurisdictions",
+        "Data lineage tracking at scale",
+        "Cross-cloud integration challenges"
+      ],
+      "critical_risks": [
+        "Regulatory penalties for non-compliance",
+        "Data privacy breaches",
+        "Model bias and fairness issues",
+        "Cross-border data restrictions"
+      ],
+      "red_flags": [
+        "Compliance score <95%",
+        "Data lineage gaps >10%",
+        "Privacy incident frequency",
+        "Regulatory audit findings"
+      ]
+    }
+  },
+  "risk_framework": {
+    "investment_risks": {
+      "market_risks": [
+        "AI bubble burst potential - valuations disconnected from fundamentals",
+        "Technology obsolescence - 6-month innovation cycles",
+        "Regulatory restrictions - AI governance and export controls",
+        "Geopolitical tensions - US-China tech restrictions"
+      ],
+      "operational_risks": [
+        "Power grid capacity constraints in key markets",
+        "Talent scarcity driving unsustainable wage inflation",
+        "Supply chain dependencies on single vendors (NVIDIA)",
+        "Data quality degradation affecting model performance"
+      ],
+      "financial_risks": [
+        "High capital intensity with long payback periods",
+        "Currency exposure in global infrastructure investments",
+        "Interest rate sensitivity for infrastructure projects",
+        "Working capital intensity from inventory requirements"
+      ]
+    },
+    "tactical_signals": {
+      "positive_indicators": [
+        "GPU allocation confirmations from NVIDIA/AMD",
+        "Power utility partnership agreements signed",
+        "Enterprise pilot program success metrics >80%",
+        "Talent acquisition velocity improving (time-to-hire <90 days)",
+        "Data quality scores improving (>95% accuracy)",
+        "Model deployment acceleration (production <30 days)"
+      ],
+      "warning_signals": [
+        "Power connection delays extending beyond 12 months",
+        "GPU supply allocation cuts >25% from projections",
+        "Talent cost inflation accelerating >40% YoY",
+        "Data quality degradation trends <90% accuracy",
+        "Model performance drift >10% from baseline",
+        "Regulatory audit findings or compliance gaps"
+      ],
+      "red_flags": [
+        "Power grid rejection notices in target markets",
+        "NVIDIA/AMD allocation termination or restrictions",
+        "Key talent exodus >30% annual turnover",
+        "Data privacy breach incidents or regulatory penalties",
+        "Model bias incidents causing public/regulatory backlash",
+        "Competitive displacement by lower-cost alternatives (e.g., DeepSeek impact)"
+      ]
+    },
+    "leading_indicators": {
+      "infrastructure": [
+        "Power utility engagement pipeline and approval status",
+        "Cooling technology performance benchmarks (PUE <1.3)",
+        "Renewable energy partnership development",
+        "Site permitting and environmental approval timelines"
+      ],
+      "technology": [
+        "GPU benchmark performance vs. cost metrics",
+        "Model inference latency achieving <50ms targets",
+        "Edge deployment success rates >90%",
+        "AI model accuracy maintenance over time"
+      ],
+      "market": [
+        "Enterprise AI adoption acceleration rates",
+        "Competition intensity and pricing pressure",
+        "Regulatory clarity and framework development",
+        "Customer concentration risk assessment"
+      ]
+    }
+  },
+  "missing_players": {
+    "reasons_for_inclusion": {
+      "Meta": "Major AI infrastructure investor ($65B commitment), developing MTIA chips, building 2+ GW data centers",
+      "OpenAI": "$13B+ funding, driving demand for AI infrastructure, potential chip development partner",
+      "Anthropic": "Major LLM developer using AWS Trainium, influential in infrastructure requirements",
+      "ByteDance": "Major AI infrastructure user, potential acquisition target for capabilities",
+      "Tesla": "Dojo supercomputer development, edge AI in autonomous vehicles",
+      "Apple": "AI chip development (A18 Pro), edge AI integration, Project ACDC",
+      "Tencent": "Major Chinese AI infrastructure player, cloud services",
+      "Baidu": "Chinese AI leader with Kunlun chips, cloud infrastructure"
+    }
+  }
+}

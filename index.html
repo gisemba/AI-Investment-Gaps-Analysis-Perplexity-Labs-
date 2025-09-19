@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Investment Gaps Dashboard - Executive Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header -->
+        <header class="executive-header">
+            <div class="header-content">
+                <div class="header-left">
+                    <h1 class="dashboard-title">AI Investment Gaps Dashboard</h1>
+                    <p class="header-subtitle">Executive Intelligence & Strategic Action Plan</p>
+                    <div class="header-timestamp">Last updated: September 18, 2025 | $340B Total Gap Identified</div>
+                </div>
+                <div class="header-right">
+                    <div class="urgency-indicator">
+                        <span class="urgency-label">Gap Urgency</span>
+                        <span class="urgency-status critical">🔴 CRITICAL</span>
+                    </div>
+					 <!-- Button not relevant and exports in json
+                    <button class="btn btn--primary export-btn" id="exportBtn">
+                        Export Summary
+                    </button>
+					-->
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="executive-nav">
+            <div class="nav-container">
+                <button class="nav-tab active" data-tab="executive-summary">Executive Summary</button>
+                <button class="nav-tab" data-tab="investment-gaps">Investment Gaps</button>
+                <button class="nav-tab" data-tab="target-companies">Target Companies</button>
+                <button class="nav-tab" data-tab="action-framework">Action Framework</button>
+                <button class="nav-tab" data-tab="risk-monitoring">Risk Monitoring</button>
+            </div>
+            <div class="nav-controls">
+               <!--Comment filter-container out <div class="filter-container"> -->
+                    <select class="form-control filter-select" id="gapCategoryFilter">
+                        <option value="">All Categories</option>
+                        <option value="infrastructure">Infrastructure</option>
+                        <option value="talent">Talent</option>
+                        <option value="data">Data Quality</option>
+                        <option value="edge">Edge AI</option>
+                        <option value="mlops">MLOps</option>
+                    </select>
+                    <select class="form-control filter-select" id="urgencyFilter">
+                        <option value="">All Urgency Levels</option>
+                        <option value="critical">🔴 Critical</option>
+                        <option value="severe">🟡 Severe</option>
+                        <option value="high">🟠 High</option>
+                        <option value="medium-high">🟡 Medium-High</option>
+                    </select>
+                    <select class="form-control filter-select" id="investmentSizeFilter">
+                        <option value="">All Investment Sizes</option>
+                        <option value="large">$100M+</option>
+                        <option value="medium">$25M-$100M</option>
+                        <option value="small">Under $25M</option>
+                    </select>
+                <!--Comment </div> -->
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="dashboard-main">
+            <!-- Executive Summary Tab -->
+            <section id="executive-summary" class="tab-content active">
+                <!-- Hero Metrics -->
+                <div class="hero-section">
+                    <div class="critical-metrics">
+                        <div class="metric-card primary">
+                            <h3>Total Investment Gap</h3>
+                            <div class="metric-value">$340B</div>
+                            <p class="metric-growth">Immediate opportunity</p>
+                        </div>
+                        <div class="metric-card success">
+                            <h3>Average ROI</h3>
+                            <div class="metric-value">34x</div>
+                            <p class="metric-growth">Expected returns</p>
+                        </div>
+                        <div class="metric-card warning">
+                            <h3>Critical Gaps</h3>
+                            <div class="metric-value">5</div>
+                            <p class="metric-growth">Requiring immediate action</p>
+                        </div>
+                        <div class="metric-card info">
+                            <h3>Target Companies</h3>
+                            <div class="metric-value">15</div>
+                            <p class="metric-growth">Investment ready</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gap Urgency Matrix -->
+                <div class="urgency-matrix">
+                    <h2>Investment Gap Urgency Matrix</h2>
+                    <div class="urgency-grid" id="urgencyMatrix">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Executive Decision Framework -->
+                <div class="decision-framework">
+                    <h2>Executive Decision Framework</h2>
+                    <div class="decision-timeline">
+                        <div class="timeline-section immediate">
+                            <h3>Immediate Actions (Q4 2025)</h3>
+                            <div class="action-cards" id="immediateActions">
+                                <!-- Populated by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="timeline-section near-term">
+                            <h3>Near-Term Priorities (Q1 2026)</h3>
+                            <div class="action-cards" id="nearTermActions">
+                                <!-- Populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Investment Opportunity Cards -->
+                <div class="opportunity-overview">
+                    <h2>Investment Opportunity Summary</h2>
+                    <div class="opportunity-cards" id="opportunityCards">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Investment Gaps Tab -->
+            <section id="investment-gaps" class="tab-content">
+                <div class="gaps-header">
+                    <h2>Critical Investment Gaps Analysis</h2>
+                    <div class="gaps-summary">
+                        <span class="gap-metric">$340B Total Gap</span>
+                        <span class="gap-metric">5 Critical Areas</span>
+                        <span class="gap-metric">3-24 Month Timeline</span>
+                    </div>
+                </div>
+
+                <!-- Investment Gaps Cards -->
+                <div class="investment-gaps-grid" id="investmentGapsGrid">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Target Companies Tab -->
+            <section id="target-companies" class="tab-content">
+                <div class="companies-header">
+                    <h2>Target Companies by Investment Gap</h2>
+                    <div class="companies-stats">
+                        <span class="stat-item">15 Target Companies</span>
+                        <span class="stat-item">5 Gap Categories</span>
+                        <span class="stat-item">$10M-$200M Range</span>
+                    </div>
+                </div>
+
+                <!-- Companies by Gap Category -->
+                <div class="companies-by-gap" id="companiesByGap">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </section>
+
+            <!-- Action Framework Tab -->
+            <section id="action-framework" class="tab-content">
+                <div class="framework-header">
+                    <h2>Q4 2025 & Q1 2026 Action Framework</h2>
+                    <div class="framework-timeline">
+                        <button class="timeline-btn active" data-timeline="q4-2025">Q4 2025</button>
+                        <button class="timeline-btn" data-timeline="q1-2026">Q1 2026</button>
+                    </div>
+                </div>
+
+                <!-- Action Items by Timeline -->
+                <div class="action-framework-content">
+                    <div class="action-timeline active" id="q4-2025-actions">
+                        <h3>Q4 2025 Priority Actions</h3>
+                        <div class="action-items-grid" id="q4ActionsGrid">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                    <div class="action-timeline" id="q1-2026-actions">
+                        <h3>Q1 2026 Priority Actions</h3>
+                        <div class="action-items-grid" id="q1ActionsGrid">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Risk Mitigation Strategies -->
+                <div class="mitigation-strategies">
+                    <h3>Risk Mitigation Strategies</h3>
+                    <div class="mitigation-cards" id="mitigationCards">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Timeline Visualization -->
+                <div class="timeline-visualization">
+                    <h3>Implementation Timeline & Dependencies</h3>
+                    <div class="timeline-chart" id="timelineChart">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Risk Monitoring Tab -->
+            <section id="risk-monitoring" class="tab-content">
+                <div class="risk-header">
+                    <h2>Gap Risk Assessment & Early Warning System</h2>
+                    <div class="risk-overview">
+                        <div class="risk-status">
+                            <span class="status-indicator critical">High Alert</span>
+                            <span class="status-label">Infrastructure & Talent Gaps</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Risk Assessment Cards -->
+                <div class="risk-assessment">
+                    <h3>Risk Assessment by Gap Category</h3>
+                    <div class="risk-cards" id="riskCards">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Early Warning Indicators -->
+                <div class="warning-indicators">
+                    <h3>Early Warning Dashboard</h3>
+                    <div class="warning-tiles" id="warningTiles">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Red Flag Monitoring -->
+                <div class="red-flag-monitoring">
+                    <h3>Red Flag Monitoring</h3>
+                    <div class="red-flag-cards" id="redFlagCards">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Mitigation Actions -->
+                <div class="mitigation-actions">
+                    <h3>Active Mitigation Strategies</h3>
+                    <div class="mitigation-action-cards" id="mitigationActionCards">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Company Detail Modal -->
+        <div class="modal hidden" id="companyModal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modalCompanyName">Company Details</h3>
+                    <button class="modal-close" id="closeCompanyModal">&times;</button>
+                </div>
+                <div class="modal-body" id="modalCompanyBody">
+                    <!-- Company details populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Gap Detail Modal -->
+        <div class="modal hidden" id="gapModal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modalGapName">Gap Analysis</h3>
+                    <button class="modal-close" id="closeGapModal">&times;</button>
+                </div>
+                <div class="modal-body" id="modalGapBody">
+                    <!-- Gap details populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
